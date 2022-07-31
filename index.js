@@ -41,6 +41,24 @@ var averageMarks = parseInt(allNumberAdded / 5)
 console.log(averageMarks);
 
 // parseFloat 
-var averageMarks = parseFloat(allNumberAdded / 5)
+var averageMarks = parseFloat(allNumberAdded / 5).toFixed(2);
 console.log(averageMarks);
 
+console.log(typeof averageMarks);
+
+
+
+// Problem 3: 
+
+// Two string added 
+
+// First string is : I am going to be 
+// Second string is : an awesome web developer 
+
+var firstString = 'I am going to be ';
+
+var secondString = 'an awesome web developer.'
+
+var addedString = (firstString + secondString);
+
+console.log(addedString);

@@ -62,3 +62,16 @@ var secondString = 'an awesome web developer.'
 var addedString = (firstString + secondString);
 
 console.log(addedString);
+
+
+
+// Problem 4: 
+
+// Full number is = 119
+// divied the number is = 5 
+// bagsesh thakbe number = 4
+
+var fullNumber = 119;
+var diviedNumber = 5;
+var bagseshNumber = (fullNumber % diviedNumber);
+console.log(bagseshNumber);
